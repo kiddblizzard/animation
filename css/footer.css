@@ -1,0 +1,45 @@
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.explanation {
+    border-bottom: 2px solid #e1001f;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.explanation-top span {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.explanation-bottom {
+    margin-top: 10px;
+}
+
+.explanation-bottom a {
+    color: #666666;
+    margin-right: 15px;
+}
+
+.explanation > div {
+    border-left: 1px solid #eeeeee;
+    height: 80px;
+}
+
+.explanation > div:first-child {
+    border: none;
+}
+
+.partner {
+    border-top: 1px solid #dddddd;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.partner> div:nth-child(2) > img{
+    margin-right: 45px;
+}
