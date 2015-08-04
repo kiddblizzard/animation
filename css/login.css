@@ -1,0 +1,15 @@
+.login {
+    border: 2px solid #dedede;
+    border-top: 2px solid #e1001f;
+    height: 330px;
+    width: 310px;
+    padding: 70px 30px;
+}
+
+.input-group-addon {
+    background-color: #cccccc;
+}
+
+.login .form-group {
+    margin-bottom: 20px;
+}
