@@ -1,0 +1,36 @@
+#gender-female, #gender-male {
+    margin-top: 0;
+}
+
+#avatar {
+    position: fixed;
+    top: -9999px;
+}
+
+.avatar-button {
+    width: 100%;
+    background-color: #e1001f;
+    font-size: 14px;
+    color: whitesmoke;
+    margin-top: 25px;
+    cursor: pointer;
+    display: block;
+}
+
+.avatar-form {
+    border: 1px solid #f4f4f4;
+    width: 230px;
+    height: 255px;
+}
+
+.avatar-form img {
+    width: 145px;
+    height: 145px;
+    margin: 25px auto;
+    display: block;
+}
+
+.avatar-button {
+    width: 50%;
+    margin: 0 auto;
+}
