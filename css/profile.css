@@ -34,3 +34,8 @@
     width: 50%;
     margin: 0 auto;
 }
+
+.change-mobile {
+    border: 1px solid #7abd54;
+    padding: 30px 0 15px 0;
+}
