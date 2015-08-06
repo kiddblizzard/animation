@@ -71,6 +71,15 @@
                                 <input type="password" class="form-control" id="birthday">
                             </div>
                         </div>
+                        <div class="form-group mobile-in-profile">
+                            <label class="col-sm-3 control-label">手机:</label>
+                            <div class="col-sm-3">
+                                <p class="form-control-static">15000568118</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" class="form-control security-code" data-toggle="modal" data-target="#myModal" >更改手机号</button>
+                            </div>
+                        </div>
                         <div class="form-group">
                             <label for="email" class="col-sm-3 control-label">邮箱:</label>
                             <div class="col-sm-6">
@@ -184,7 +193,43 @@
     </div>
 </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content change-mobile">
+
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">手机:</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="mobile">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">验证码:</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="security-code">
+                        </div>
+                        <div class="col-sm-4">
+                            <button type="button" class="form-control security-code" >获取验证码</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-sm-3">
+                            <button type="submit" class="btn btn-default registration-submit col-sm-12">提交</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button type="button" class="btn btn-default col-sm-12" data-dismiss="modal">取消</button>
+                        </div>
+                    </div>
+                </form>
+
+        </div>
+    </div>
+</div>
+
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/js/modal.js"></script>
 <script src="javascript/profile.js"></script>
 </body>
 
